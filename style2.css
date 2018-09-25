@@ -1,0 +1,84 @@
+body {
+    margin: auto;
+    background-image: url("../../images/ep_naturalwhite.png")
+}
+
+header {
+    background: #ffffff;
+    padding: 20px; 
+    border-bottom: 5px solid #cccccc;
+    
+} 
+
+#name {
+    background: #4aaaa5;
+    display: inline;
+    margin-left: 338px;
+    padding: 20px 20px 20px 20px;
+    font-family: lobster;
+    color: white;
+    
+}
+
+nav {
+    float: right;   
+    padding: 15px;
+    margin-right: 385px; 
+      
+}
+
+a {
+    padding: 0px 15px;
+    text-decoration: none;
+    color: #777777;
+    border: 5px;
+    opacity: 0.5;
+    font-family: Arial, Helvetica, sans-serif;
+    border-right: 1px solid #777777;
+}
+
+section {
+    background: #ffffff; 
+    padding: 10px 15px 20px 15px;
+    color: #777777;
+    margin-top: 30px;  
+    width: 630px;
+    margin-left: 355px;
+    border: 5px solid #dddddd;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+footer {
+    background: #666666;
+    padding: 5px; 
+    color: white;  
+    position: fixed;
+    left: 0;
+    bottom: 0px;
+    width: 100%;;
+    color: white;
+    text-align: center;
+    border-top: 5px solid #4aaaa5;   
+     
+}
+
+hr {
+    background: #777777;
+}
+
+h2 {
+   color: #4aaaa5;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+h6 {
+     margin-bottom: 0px;
+}
+
+#button {
+     background: #4aaaa5;
+     padding: 10px;
+     cursor: pointer;
+     font-weight: bold;
+}

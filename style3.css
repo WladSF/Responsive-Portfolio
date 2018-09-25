@@ -1,0 +1,143 @@
+body {
+    margin: auto;
+    background: lightgray;
+    background-image: url("../../images/ep_naturalwhite.png");
+}
+
+header {
+    background: #ffffff;
+    padding: 20px; 
+    border-bottom: 5px solid #cccccc;   
+} 
+
+#name {
+    background: #4aaaa5;
+    display: inline;
+    margin-left: 338px;
+    padding: 20px 20px 20px 20px;
+    font-family: lobster;
+    color: white;   
+}
+
+nav {
+    float: right;   
+    padding: 15px;
+    margin-right: 385px; 
+      
+}
+
+a {
+    padding: 0px 15px;
+    text-decoration: none;
+    color: #777777;
+    opacity: 0.5;
+    font-family: Arial, Helvetica, sans-serif;
+    border-right: 1px solid #777777;
+}
+
+section {
+    background: #ffffff; 
+    padding: 10px 15px 50px 15px;
+    color: #777777;
+    margin-top: 20px;  
+    width: 630px;
+    margin-left: 355px;
+    border: 5px solid #dddddd;
+   
+}
+
+footer {
+    background: #666666;
+    padding: 5px; 
+    color: white;  
+    position: fixed;
+    left: 0;
+    bottom: 0px;
+    width: 100%;;
+    color: white;
+    text-align: center;
+    border-top: 5px solid #4aaaa5;    
+}
+
+hr {
+    background: #777777;
+}
+
+h2 {
+   color: #4aaaa5;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+ h6 {
+     margin-bottom: 0px;
+}
+
+.twopics {
+    margin-bottom: 10px;
+    position: relative;
+    
+}
+
+.twopics img  {
+    margin-right: 10px;
+    border: solid 2px #777777;   
+}
+
+h3 {
+    position: absolute;
+    top: 80px;
+    color: white;
+    background: #4aaaa5;
+    width: 27%;
+    text-align: center;
+    padding: 5px;
+    left: 2px;
+}
+  
+#tech {
+    position: absolute;
+    top: 80px;
+    color: white;
+    background: #4aaaa5;
+    width: 27%;
+    text-align: center;
+    padding: 5px;
+    left: 200px;
+}
+  
+#nature {
+    position: absolute;
+    top: 80px;
+    color: white;
+    background: #4aaaa5;
+    width: 27%;
+    text-align: center;
+    padding: 5px;
+    left: 2px;
+}
+
+#animal {
+    position: absolute;
+    top: 80px;
+    color: white;
+    background: #4aaaa5;
+    width: 27%;
+    text-align: center;
+    padding: 5px;
+    left: 200px;
+}
+
+#water {
+    position: absolute;
+    top: 80px;
+    color: white;
+    background: #4aaaa5;
+    width: 27%;
+    text-align: center;
+    padding: 5px;
+    left: 2px;
+}
+
+
+
+
