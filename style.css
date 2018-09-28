@@ -1,7 +1,10 @@
+
+
 body {
     margin: auto;
     background-image: url("../../images/ep_naturalwhite.png");
 }
+
 
 header {
     background: #ffffff;
@@ -23,7 +26,7 @@ header {
 nav {
     float: right;   
     padding: 15px;
-    margin-right: 190px;      
+    margin-right: 180px;      
 }
 
 a {
@@ -40,7 +43,7 @@ section {
     padding: 10px 15px 60px 15px;
     color: #777777;
     margin-top: 30px;  
-    width: 960px;
+    width: 70%;
     margin-left: 220px;
     border: 5px solid #dddddd;
    
@@ -56,9 +59,7 @@ footer {
     width: 100%;;
     color: white;
     text-align: center;
-    border-top: 5px solid #4aaaa5;
-    
-     
+    border-top: 5px solid #4aaaa5;    
 }
 
 hr {
@@ -91,6 +92,74 @@ img {
      color: white;
  }
 
- .twopics {
-     color: white;
+ @media screen and (max-width: 980px) {
+    section {
+        margin: 0 auto ;     
+        width: 70%;
+    }
+
+    header {
+        margin: 0 auto;       
+        width: 70%;
+    }
+
+    nav {
+        margin: 0 auto;       
+        width: 70%;
+    }
+
+    #name {
+        margin: 0 auto;      
+    }
+
+    a {
+        margin: 0 auto;
+        
+    }
+
  }
+
+ @media screen and (max-width: 768px) {
+    section {
+        margin: 0 auto ;     
+        width: 70%;
+    }
+
+    header {
+        margin: 0 auto;       
+        width: 70%;
+    }
+
+    nav {
+        margin: 0 auto;       
+        width: 70%;
+    }
+
+    #name {
+        margin: 0 auto;
+
+    }
+ }
+
+ @media screen and (max-width: 640px) {
+    section {
+        margin: 0 auto ;     
+        width: 70%;
+    }
+
+    header {
+        margin: 0 auto;       
+        width: 70%;
+    }
+
+    nav {
+        margin: 0 auto;       
+        width: 70%;
+    }
+
+    #name {
+
+    }
+ }
+ 
+
