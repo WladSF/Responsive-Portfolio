@@ -23,7 +23,7 @@ header {
 nav {
     float: right;   
     padding: 15px;
-    margin-right: 385px; 
+    margin-right: 235px; 
       
 }
 
@@ -108,7 +108,6 @@ h6 {
         margin: 0 auto;
         display: block;
         text-align: center;
-
     }
  } 
 
@@ -141,3 +140,32 @@ h6 {
 
     }
  } 
+
+ @media screen and (max-width: 960px) {
+    section {
+        margin: 0 auto ;     
+        width: 70%;
+    }
+
+    header {
+        margin: 0 auto;       
+        width: 100%;
+        overflow: auto;
+        padding: 0;
+    }
+
+    nav {
+        margin: 0 auto;       
+        width: 90%;
+        display: block;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #name {
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+
+    }
+ }
