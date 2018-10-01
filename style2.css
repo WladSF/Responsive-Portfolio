@@ -109,6 +109,18 @@ h6 {
         display: block;
         text-align: center;
     }
+
+    input {
+        width: 100%;
+    }
+
+    textarea {
+        width: 70%;
+    }
+
+    button {
+        width: 100%;
+    }
  } 
 
 
@@ -139,6 +151,14 @@ h6 {
         text-align: center;
 
     }
+
+    input {
+        width: 100%;
+    }
+
+    textarea {
+        width: 70%;
+    }
  } 
 
  @media screen and (max-width: 960px) {
@@ -167,5 +187,9 @@ h6 {
         display: block;
         text-align: center;
 
+    }
+
+    input {
+        width: 60%;
     }
  }
