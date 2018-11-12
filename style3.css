@@ -111,8 +111,9 @@ footer i {
     float: left;
     margin: 1.0rem;
     border-radius: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 6px 8px 20px 0 rgba(90, 233, 238, 0.6), 6px 8px 20px 0 rgba(88, 233, 226, 0.19);
     background-color: #ffffff;   
+    background-image: linear-gradient(to top, gray, white 65% )
 }
 
 .card-body {
@@ -141,6 +142,10 @@ footer i {
 #img3 {
     margin: 4px 48px;
     border-radius: 15px;
+}
+
+#img4 {
+    margin: 4px 44px;
 }
 
 .hr1 {
