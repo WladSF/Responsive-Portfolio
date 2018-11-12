@@ -13,7 +13,8 @@ header {
 #name {
     background: #4aaaa5;
     display: inline;
-    margin-left: 338px;
+    position: relative;
+    margin-left: 13%;
     padding: 20px 20px 20px 20px;
     font-family: lobster;
     color: white;
@@ -23,7 +24,8 @@ header {
 nav {
     float: right;   
     padding: 15px;
-    margin-right: 235px; 
+    position: relative;
+    margin-right: 11%;
       
 }
 
@@ -37,13 +39,16 @@ a {
     border-right: 1px solid #777777;
 }
 
+a.fab {
+    border: none;
+}
+
 section {
     background: #ffffff; 
     padding: 10px 15px 20px 15px;
     color: #777777;
-    margin-top: 30px;  
-    width: 630px;
-    margin-left: 355px;
+    width: 70%;
+    margin: 40px auto;
     border: 5px solid #dddddd;
     font-family: Arial, Helvetica, sans-serif;
    
@@ -61,6 +66,12 @@ footer {
     text-align: center;
     border-top: 5px solid #4aaaa5;   
      
+}
+
+footer i {
+    font-size: 200%;
+    padding: 15px;
+    color: white;
 }
 
 hr {
@@ -115,12 +126,12 @@ h6 {
     }
 
     textarea {
-        width: 70%;
-    }
-
-    button {
         width: 100%;
     }
+
+    /* button {
+        width: 100%;
+    } */
  } 
 
 
@@ -153,11 +164,11 @@ h6 {
     }
 
     input {
-        width: 100%;
+        width: 50%;
     }
 
     textarea {
-        width: 70%;
+        width: 100%;
     }
  } 
 

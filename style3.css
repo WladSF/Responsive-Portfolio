@@ -1,53 +1,83 @@
 body {
     margin: auto;
-    background: lightgray;
-    background-image: url("../../images/ep_naturalwhite.png");
+    background-image: url("images/greenbluecubes.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section {
+    background-image: url("images//darkwallpaper3.jpg");
+    padding: 10px 15px 50px 15px;
+    color: #777777;
+    width: 80%;
+    margin: 30px auto;
+    height: 450px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+   
 }
 
 header {
-    background: #ffffff;
+    /* background: #ffffff; */
+    background-image: url("images/darkwallpaper3.jpg");
     padding: 20px; 
     border-bottom: 5px solid #cccccc;   
 } 
 
 #name {
-    background: #4aaaa5;
+    /* background: #4aaaa5; */
     display: inline;
-    margin-left: 338px;
+    position: relative;
+    margin-left: 7.3%;
     padding: 20px 20px 20px 20px;
-    font-family: lobster;
-    color: white;   
+    font-family: raleway;
+    color: #777777;
+
 }
 
 nav {
-    float: right;   
+    float: right;  
+    position: relative; 
     padding: 15px;
-    margin-right: 235px; 
+    margin-right: 6.3%; 
       
 }
 
 a {
     padding: 0px 15px;
     text-decoration: none;
-    color: #777777;
-    opacity: 0.5;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: raleway;
     border-right: 1px solid #777777;
+    color: #777777;
 }
 
-section {
-    background: #ffffff; 
-    padding: 10px 15px 50px 15px;
-    color: #777777;
-    margin-top: 20px;  
-    width: 630px;
-    margin-left: 355px;
-    border: 5px solid #dddddd;
-   
+a.fab {
+   border: none;
+}
+
+
+a.btn, h5 a {
+    border: none; 
+    transition: 0.5s;
+    /* font-size: 16px; */
+}
+
+h5 a {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+a.btn:hover, h5 a:hover {
+    background-color: lightblue;
+    border-radius: 15px;
+    border: 2px solid chartreuse;
+
 }
 
 footer {
-    background: #666666;
+    /* background: #666666; */
+    background-image: url("images/darkwallpaper3.jpg");
     padding: 5px; 
     color: white;  
     position: fixed;
@@ -56,92 +86,72 @@ footer {
     width: 100%;;
     color: white;
     text-align: center;
-    border-top: 5px solid #4aaaa5;    
+    border-top: 5px solid #cccccc;    
 }
 
-hr {
-    background: #777777;
+footer i {
+    font-size: 200%;
+    padding: 15px;
+    color: white;
 }
 
-h2 {
-   color: #4aaaa5;
-   font-family: 'Times New Roman', Times, serif;
-}
-
- h6 {
-     margin-bottom: 0px;
-}
-
-.twopics {
-    margin-bottom: 10px;
-    position: relative;
+.card {
+    float: left;
+    margin: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #ffffff;
+    
+    
     
 }
 
-.twopics img  {
-    margin-right: 10px;
-    border: solid 2px #777777;   
+.card-body {
+    text-align: center;
+    font-family: raleway;
+    color: black;
+    height: 180px;
+    
+
 }
 
-h3 {
-    position: absolute;
-    top: 80px;
-    color: white;
-    background: #4aaaa5;
-    width: 27%;
-    text-align: center;
-    padding: 5px;
-    left: 2px;
+#img {
+    margin: 0 25px;
+    border-radius: 15px;
+    
 }
+
+#img1 {
+    border-radius: 15px;
+}
+
+#img2 {
+    border-radius: 15px;
+}
+
+#img3 {
+    margin: 0 55px;
+    border-radius: 15px;
+}
+
+.hr1 {
+    background: #777777;
+    width: 30%;
+}
+
+h2 {
+   color: darkgray;
+   font-family: raleway;
+}
+
+
   
-#tech {
-    position: absolute;
-    top: 80px;
-    color: white;
-    background: #4aaaa5;
-    width: 27%;
-    text-align: center;
-    padding: 5px;
-    left: 200px;
-}
-  
-#nature {
-    position: absolute;
-    top: 80px;
-    color: white;
-    background: #4aaaa5;
-    width: 27%;
-    text-align: center;
-    padding: 5px;
-    left: 2px;
-}
-
-#animal {
-    position: absolute;
-    top: 80px;
-    color: white;
-    background: #4aaaa5;
-    width: 27%;
-    text-align: center;
-    padding: 5px;
-    left: 200px;
-}
-
-#water {
-    position: absolute;
-    top: 80px;
-    color: white;
-    background: #4aaaa5;
-    width: 27%;
-    text-align: center;
-    padding: 5px;
-    left: 2px;
-}
 
 @media screen and (max-width: 640px) {
     section {
         margin: 0 auto ;     
-        width: 90%;
+        width: 100%;
+        height: 100rem;
     }
 
     header {
@@ -153,7 +163,7 @@ h3 {
 
     nav {
         margin: 0 auto;       
-        width: 90%;
+        width: 0%;
         display: block;
         padding: 20px;
         text-align: center;
@@ -171,6 +181,7 @@ h3 {
     section {
         margin: 0 auto ;     
         width: 70%;
+        height: 100rem;
     }
 
     header {
@@ -182,7 +193,7 @@ h3 {
 
     nav {
         margin: 0 auto;       
-        width: 90%;
+        width: 100%;
         display: block;
         padding: 20px;
         text-align: center;
@@ -200,6 +211,7 @@ h3 {
     section {
         margin: 0 auto ;     
         width: 70%;
+        height: 100rem;
     }
 
     header {
@@ -211,7 +223,7 @@ h3 {
 
     nav {
         margin: 0 auto;       
-        width: 90%;
+        width: 100%;
         display: block;
         padding: 20px;
         text-align: center;

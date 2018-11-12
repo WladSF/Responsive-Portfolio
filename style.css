@@ -2,7 +2,7 @@
 
 body {
     margin: auto;
-    background-image: url("../../images/ep_naturalwhite.png");
+    background-image: url("../../images/");
 }
 
 
@@ -16,7 +16,8 @@ header {
 #name {
     background: #4aaaa5;
     display: inline;
-    margin-left: 200px;
+    position: relative;
+    margin-left: 12.5%;
     padding: 20px 20px 20px 20px;
     font-family: lobster;
     color: white;
@@ -24,9 +25,10 @@ header {
 }
 
 nav {
-    float: right;   
+    float: right;  
+    position: relative; 
     padding: 15px;
-    margin-right: 110px;      
+    margin-right: 12%;      
 }
 
 a {
@@ -38,13 +40,16 @@ a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a.fab {
+    border: none;
+}
+
 section {
     background: #ffffff; 
     padding: 10px 15px 60px 15px;
     color: #777777;
-    margin-top: 30px;  
     width: 70%;
-    margin-left: 220px;
+    margin: 40px auto;
     border: 5px solid #dddddd;
    
 }
@@ -60,6 +65,13 @@ footer {
     color: white;
     text-align: center;
     border-top: 5px solid #4aaaa5;    
+}
+
+
+footer i {
+    font-size: 200%;
+    padding: 15px;
+    color: white;
 }
 
 hr {
