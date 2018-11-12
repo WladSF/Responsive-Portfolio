@@ -6,11 +6,13 @@ body {
 }
 
 section {
-    background-image: url("images//darkwallpaper3.jpg");
+    background-image: url("images/darkwallpaper1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 10px 15px 50px 15px;
     color: #777777;
     width: 80%;
-    margin: 30px auto;
+    margin: 40px auto;
     height: 450px;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -19,10 +21,13 @@ section {
 }
 
 header {
-    /* background: #ffffff; */
+    background: #ffffff;
     background-image: url("images/darkwallpaper3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 20px; 
     border-bottom: 5px solid #cccccc;   
+    border-top: 5px solid #cccccc;  
 } 
 
 #name {
@@ -78,6 +83,8 @@ a.btn:hover, h5 a:hover {
 footer {
     /* background: #666666; */
     background-image: url("images/darkwallpaper3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 5px; 
     color: white;  
     position: fixed;
@@ -100,10 +107,7 @@ footer i {
     margin: 1.5rem;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: #ffffff;
-    
-    
-    
+    background-color: #ffffff;   
 }
 
 .card-body {
@@ -111,12 +115,10 @@ footer i {
     font-family: raleway;
     color: black;
     height: 180px;
-    
-
 }
 
 #img {
-    margin: 0 25px;
+    margin: 0 50px;
     border-radius: 15px;
     
 }
@@ -127,10 +129,11 @@ footer i {
 
 #img2 {
     border-radius: 15px;
+    margin: 4px 55px;
 }
 
 #img3 {
-    margin: 0 55px;
+    margin: 4px 65px;
     border-radius: 15px;
 }
 
