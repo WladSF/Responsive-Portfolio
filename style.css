@@ -9,6 +9,7 @@ header {
     background: #ffffff;
     padding: 20px; 
     border-bottom: 5px solid #cccccc;
+    border-top: 5px solid #cccccc; 
     
 } 
 
@@ -47,8 +48,11 @@ section {
     padding: 10px 15px 60px 15px;
     color: #777777;
     width: 70%;
+    height: 370px;
     margin: 40px auto;
-    border: 5px solid #dddddd;
+    border: 2px solid #dddddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    
 }
 

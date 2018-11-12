@@ -6,9 +6,9 @@ body {
 }
 
 section {
-    background-image: url("images/darkwallpaper1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("images/darkwallpaper3.jpg");
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
     padding: 10px 15px 50px 15px;
     color: #777777;
     width: 80%;
@@ -23,8 +23,8 @@ section {
 header {
     background: #ffffff;
     background-image: url("images/darkwallpaper3.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
     padding: 20px; 
     border-bottom: 5px solid #cccccc;   
     border-top: 5px solid #cccccc;  
@@ -37,7 +37,7 @@ header {
     margin-left: 7.3%;
     padding: 20px 20px 20px 20px;
     font-family: raleway;
-    color: #777777;
+    color: lightgray;
 
 }
 
@@ -54,7 +54,11 @@ a {
     text-decoration: none;
     font-family: raleway;
     border-right: 1px solid #777777;
-    color: #777777;
+    color: lightgray;
+}
+
+a#text {
+    color: black;
 }
 
 a.fab {
@@ -65,6 +69,7 @@ a.fab {
 a.btn, h5 a {
     border: none; 
     transition: 0.5s;
+    color: black;
     /* font-size: 16px; */
 }
 
@@ -83,8 +88,8 @@ a.btn:hover, h5 a:hover {
 footer {
     /* background: #666666; */
     background-image: url("images/darkwallpaper3.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
     padding: 5px; 
     color: white;  
     position: fixed;
@@ -99,12 +104,12 @@ footer {
 footer i {
     font-size: 200%;
     padding: 15px;
-    color: white;
+    color:lightgray;
 }
 
 .card {
     float: left;
-    margin: 1.5rem;
+    margin: 1.0rem;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #ffffff;   
@@ -118,22 +123,23 @@ footer i {
 }
 
 #img {
-    margin: 0 50px;
+    margin: 0 35px;
     border-radius: 15px;
     
 }
 
 #img1 {
     border-radius: 15px;
+    margin: 0 5px;
 }
 
 #img2 {
     border-radius: 15px;
-    margin: 4px 55px;
+    margin: 4px 40px;
 }
 
 #img3 {
-    margin: 4px 65px;
+    margin: 4px 48px;
     border-radius: 15px;
 }
 
