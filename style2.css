@@ -1,6 +1,8 @@
 body {
     margin: auto;
-    background-image: url("../../images/ep_naturalwhite.png")
+    background-image: url("images/blackwhitecubes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {
@@ -11,13 +13,13 @@ header {
 } 
 
 #name {
-    background: #4aaaa5;
+    /* background: #4aaaa5; */
     display: inline;
     position: relative;
-    margin-left: 13%;
+    margin-left: 11%;
     padding: 20px 20px 20px 20px;
-    font-family: lobster;
-    color: white;
+    font-family: raleway;
+    color: #777777;
     
 }
 
@@ -34,8 +36,7 @@ a {
     text-decoration: none;
     color: #777777;
     border: 5px;
-    opacity: 0.5;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: raleway;
     border-right: 1px solid #777777;
 }
 
@@ -44,15 +45,21 @@ a.fab {
 }
 
 section {
-    background: #ffffff; 
+    background-image: url("images/blackwhitecubes.jpg");
+    background: #cccccc;
     padding: 10px 15px 20px 15px;
     color: #777777;
     width: 70%;
+    height: 400px;
     margin: 40px auto;
-    border: 5px solid #dddddd;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: raleway;
+    border: 2px solid #dddddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    
 }
+
+
 
 footer {
     background: #666666;
@@ -68,6 +75,11 @@ footer {
      
 }
 
+form {
+    position: relative;
+    margin: 0 auto;
+}
+
 footer i {
     font-size: 200%;
     padding: 15px;
@@ -79,8 +91,8 @@ hr {
 }
 
 h2 {
-   color: #4aaaa5;
-   font-family: 'Times New Roman', Times, serif;
+   color: #777777;
+   font-family: raleway;
 }
 
 h6 {
@@ -88,10 +100,17 @@ h6 {
 }
 
 #button {
-     background: #4aaaa5;
+     background:#777777;
      padding: 10px;
      cursor: pointer;
      font-weight: bold;
+     opacity: 0.6;
+
+}
+
+input, textarea {
+    border: 1px solid #777777;
+    border-radius: 4px;
 }
 
 @media screen and (max-width: 640px) {
@@ -129,9 +148,9 @@ h6 {
         width: 100%;
     }
 
-    /* button {
-        width: 100%;
-    } */
+    button {
+        width: 80px;
+    }
  } 
 
 
@@ -164,11 +183,15 @@ h6 {
     }
 
     input {
-        width: 50%;
+        width: 100%;
     }
-
+   
     textarea {
         width: 100%;
+    }
+
+    button {
+        width: 80px;
     }
  } 
 
@@ -200,7 +223,14 @@ h6 {
 
     }
 
-    input {
-        width: 60%;
+    textarea {
+        width: 100%;
     }
+
+    input {
+        width: 100%;
+    }
+
+
  }
+
