@@ -1,12 +1,15 @@
 body {
     margin: auto;
-    background-image: url("images/blackwhitecubes.jpg");
+    /* background-image: url("images/background6.png"); */
+    background-image: url("images/gg2.jpg");
+    /* background: #ffffff; */
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 header {
     background: #ffffff;
+    background-image: url("images/background3.jpg");
     padding: 20px; 
     border-bottom: 5px solid #cccccc;
     
@@ -34,7 +37,7 @@ nav {
 a {
     padding: 0px 15px;
     text-decoration: none;
-    color: #777777;
+    color: black;
     border: 5px;
     font-family: raleway;
     border-right: 1px solid #777777;
@@ -45,13 +48,15 @@ a.fab {
 }
 
 section {
-    background-image: url("images/blackwhitecubes.jpg");
-    background: #cccccc;
+    background-image: url("images/gg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: #cccccc; */
     padding: 10px 15px 20px 15px;
-    color: #777777;
+    color: black;
     width: 70%;
     height: 400px;
-    margin: 40px auto;
+    margin: 60px auto;
     font-family: raleway;
     border: 2px solid #dddddd;
     border-radius: 10px;
@@ -62,7 +67,8 @@ section {
 
 
 footer {
-    background: #666666;
+    /* background: #666666; */
+    background-image: url("images/background3.jpg");
     padding: 5px; 
     color: white;  
     position: fixed;
@@ -71,19 +77,25 @@ footer {
     width: 100%;;
     color: white;
     text-align: center;
-    border-top: 5px solid #4aaaa5;   
+    border-top: 5px solid #ffffff;   
      
 }
 
-form {
-    position: relative;
-    margin: 0 auto;
+img {
+    float: right;
+    margin-top: -308px;
+    margin-right: 40px;
+    border: solid 1px #777777;
+    border-radius: 5px;
+    box-shadow:  4px 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
 }
 
 footer i {
     font-size: 200%;
     padding: 15px;
-    color: white;
+    color: #777777;
 }
 
 hr {
@@ -105,6 +117,7 @@ h6 {
      cursor: pointer;
      font-weight: bold;
      opacity: 0.6;
+     color: #ffffff;
 
 }
 
@@ -193,6 +206,7 @@ input, textarea {
     button {
         width: 80px;
     }
+
  } 
 
  @media screen and (max-width: 960px) {
@@ -229,6 +243,10 @@ input, textarea {
 
     input {
         width: 100%;
+    }
+
+    img {
+        display: none;
     }
 
 

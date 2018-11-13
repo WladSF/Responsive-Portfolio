@@ -1,12 +1,17 @@
 body {
     margin: auto;
-    background-image: url("images/greenbluecubes.svg");
+    /* background-image: url("images/greenbluecubes.svg"); */
+    /* background: linear-gradient(to top, #ffffff 18%, #f7f7ef 100%); */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    background-image: url("images/gg2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    /* background: #777777; */
 }
 
 section {
-    background-image: url("images/darkwallpaper3.jpg");
+    background-image: url("images/background3.jpg");
     /* background-repeat: no-repeat; */
     /* background-size: cover; */
     padding: 10px 15px 50px 15px;
@@ -22,9 +27,11 @@ section {
 
 header {
     background: #ffffff;
-    background-image: url("images/darkwallpaper3.jpg");
-    /* background-repeat: no-repeat;
-    background-size: cover; */
+    /* background-image: url("images/background3.jpg"); 
+    background: linear-gradient(to top, #ffffff 18%, #f7f7ef 100%); 
+    background: linear-gradient(to top, #99ccff 18%, #ccffff 100%); */
+    background-repeat: no-repeat; 
+    background-size: cover;
     padding: 20px; 
     border-bottom: 5px solid #cccccc;   
     border-top: 5px solid #cccccc;  
@@ -37,7 +44,7 @@ header {
     margin-left: 7.3%;
     padding: 20px 20px 20px 20px;
     font-family: raleway;
-    color: lightgray;
+    color: #777777;
 
 }
 
@@ -54,7 +61,7 @@ a {
     text-decoration: none;
     font-family: raleway;
     border-right: 1px solid #777777;
-    color: lightgray;
+    color: #777777;
 }
 
 a#text {
@@ -87,7 +94,7 @@ a.btn:hover, h5 a:hover {
 
 footer {
     /* background: #666666; */
-    background-image: url("images/darkwallpaper3.jpg");
+    background-image: url("images/gg2.jpg");
     /* background-repeat: no-repeat;
     background-size: cover; */
     padding: 5px; 
@@ -104,17 +111,18 @@ footer {
 footer i {
     font-size: 200%;
     padding: 15px;
-    color:lightgray;
+    color: #777777;
 }
 
 .card {
     float: left;
     margin: 1.0rem;
     border-radius: 5px;
-    box-shadow: 6px 8px 20px 0 rgba(90, 233, 238, 0.6), 6px 8px 20px 0 rgba(88, 233, 226, 0.19);
+    box-shadow: 6px 8px 20px 0 rgb(139, 203, 240), 6px 8px 20px 0 rgba(233, 180, 88, 0.19);
     background-color: #ffffff;   
     background-image: linear-gradient(to top, gray, white 65% )
 }
+
 
 .card-body {
     text-align: center;
@@ -154,7 +162,7 @@ footer i {
 }
 
 h2 {
-   color: darkgray;
+   color: #777777;
    font-family: raleway;
 }
 
@@ -198,6 +206,8 @@ h2 {
  } 
  
  @media screen and (max-width: 768px) {
+
+   
     section {
         margin: 0 auto ;     
         width: 70%;
