@@ -169,7 +169,7 @@ input, textarea {
 
 @media screen and (max-width: 768px) {
     section {
-        margin: 0 auto ;     
+        margin: 0 auto;  
         width: 90%;
     }
 
@@ -211,8 +211,9 @@ input, textarea {
 
  @media screen and (max-width: 960px) {
     section {
-        margin: 0 auto ;     
+        margin: 20px auto 100px auto;    
         width: 70%;
+        height: 25rem;
     }
 
     header {
