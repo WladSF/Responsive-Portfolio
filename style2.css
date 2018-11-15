@@ -239,7 +239,7 @@ input, textarea {
     }
 
     textarea {
-        width: 95%;
+        width: 97%;
     }
 
     input {
@@ -250,6 +250,13 @@ input, textarea {
         display: none;
     }
 
+    #button {
+        width: 50%;
+        margin-left: 70px;
+        background: #ffffff;
+        color: #777777;
+
+    }
 
  }
 
