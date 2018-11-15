@@ -201,7 +201,16 @@ h2 {
     }
 
     div.card {
-        margin-left: 50px;
+        margin-left: 45px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    a#text1 {
+
+    font-size: 15px;
     }
  } 
  
@@ -257,6 +266,8 @@ h2 {
         display: block;
         padding: 20px;
         text-align: center;
+        border-top: solid 5px #cccccc;
+        background-image: url("images/background3.jpg");
     }
 
     #name {

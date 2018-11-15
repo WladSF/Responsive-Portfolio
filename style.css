@@ -188,9 +188,9 @@ img {
 
  @media screen and (max-width: 960px) {
     section {
-        margin: 0 auto ;     
+        margin: 25px auto ;     
         width: 70%;
-        height: 65rem;
+        height: 60rem;
     }
 
     header {
@@ -206,6 +206,7 @@ img {
         display: block;
         padding: 20px;
         text-align: center;
+        background-image: url("images/gg2.jpg")
     }
 
     #name {
@@ -216,7 +217,7 @@ img {
     }
 
     img {
-        padding: 15px 20px 15px 35px;
+        padding: 15px 20px 15px 21px;
     }
 
     h2 {
