@@ -154,11 +154,11 @@ input, textarea {
     }
 
     input {
-        width: 100%;
+        width: 90%;
     }
 
     textarea {
-        width: 100%;
+        width: 50%;
     }
 
     button {
@@ -239,11 +239,11 @@ input, textarea {
     }
 
     textarea {
-        width: 100%;
+        width: 95%;
     }
 
     input {
-        width: 100%;
+        width: 95%;
     }
 
     img {
