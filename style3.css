@@ -1,35 +1,23 @@
 body {
     margin: auto;
-    /* background-image: url("images/greenbluecubes.svg"); */
-    /* background: linear-gradient(to top, #ffffff 18%, #f7f7ef 100%); */
-    /* background-repeat: no-repeat;
-    background-size: cover; */
     background-image: url("images/gg2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    /* background: #777777; */
 }
 
 section {
     background-image: url("images/background3.jpg");
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
     padding: 10px 15px 50px 15px;
     color: #777777;
     width: 80%;
     margin: 40px auto;
     height: 450px;
     border-radius: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
-   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
 }
 
 header {
     background: #ffffff;
-    /* background-image: url("images/background3.jpg"); 
-    background: linear-gradient(to top, #ffffff 18%, #f7f7ef 100%); 
-    background: linear-gradient(to top, #99ccff 18%, #ccffff 100%); */
     background-repeat: no-repeat; 
     background-size: cover;
     padding: 20px; 
@@ -38,22 +26,19 @@ header {
 } 
 
 #name {
-    /* background: #4aaaa5; */
     display: inline;
     position: relative;
     margin-left: 7.3%;
     padding: 20px 20px 20px 20px;
     font-family: raleway;
     color: #777777;
-
 }
 
 nav {
     float: right;  
     position: relative; 
     padding: 15px;
-    margin-right: 6.3%; 
-      
+    margin-right: 6.3%;      
 }
 
 a {
@@ -72,12 +57,10 @@ a.fab {
    border: none;
 }
 
-
 a.btn, h5 a {
     border: none; 
     transition: 0.5s;
     color: black;
-    /* font-size: 16px; */
 }
 
 h5 a {
@@ -89,14 +72,10 @@ a.btn:hover, h5 a:hover {
     background-color: lightblue;
     border-radius: 15px;
     border: 2px solid chartreuse;
-
 }
 
 footer {
-    /* background: #666666; */
     background-image: url("images/gg2.jpg");
-    /* background-repeat: no-repeat;
-    background-size: cover; */
     padding: 5px; 
     color: white;  
     position: fixed;
@@ -117,12 +96,12 @@ footer i {
 .card {
     float: left;
     margin: 1.0rem;
-    border-radius: 5px;
+    border-radius: 15px;
     box-shadow: 6px 8px 20px 0 rgb(139, 203, 240), 6px 8px 20px 0 rgba(233, 180, 88, 0.19);
     background-color: #ffffff;   
-    background-image: linear-gradient(to top, gray, white 65% )
+    background-image: linear-gradient(to top, gray, white 65% );
+    border: 1px solid #dddddd;
 }
-
 
 .card-body {
     text-align: center;
@@ -133,8 +112,7 @@ footer i {
 
 #img {
     margin: 0 32px;
-    border-radius: 15px;
-    
+    border-radius: 15px;    
 }
 
 #img1 {
